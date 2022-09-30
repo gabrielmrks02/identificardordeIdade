@@ -1,0 +1,38 @@
+body {
+    background-color: #84baf8;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+#msg {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.box {
+    background-color: rgb(224, 224, 224);
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
+    position: absolute;
+    padding: 65px;
+}
+
+#botão {
+    position: absolute;
+    right: 65px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 500px;
+}

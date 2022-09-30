@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex001.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section class="box">
+        <strong>Ano de nascimento: </strong><input type="number" id="ano">
+        <Br><strong>Sexo:</strong> <input type="radio" name="genero" value="masculino" id="genero">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" value="feminino" id="genero">
+        <label for="feminino">Feminino</label>
+        <br><input type="button" value="Calcular" id="botão" onclick="carregar()">
+        <br>
+        <div id="msg">
+            <br> Preencha os dados acima para receber o resultado
+        </div>
+
+        <div id="foto">
+            <img id="imagem" src="" alt="">
+        </div>
+
+    </section>
+    <footer>
+        <p>©Marks</p>
+    </footer>
+    <script src="teste.js"></script>
+</body>
+
+</html>
